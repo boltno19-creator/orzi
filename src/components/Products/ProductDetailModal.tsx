@@ -6,17 +6,16 @@ interface ProductDetailModalProps {
   product: Product;
   isOpen: boolean;
   onClose: () => void;
-  onAddToCart?: (productId: string, quantity: number) => void;
+  onOrderNow?: () => void;
 }
 
 export default function ProductDetailModal({
   product,
   isOpen,
   onClose,
-  onAddToCart,
+  onOrderNow,
 }: ProductDetailModalProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [quantity, setQuantity] = useState(1);
   const [isZoomed, setIsZoomed] = useState(false);
 
   if (!isOpen) return null;
@@ -31,8 +30,8 @@ export default function ProductDetailModal({
     );
   };
 
-  const handleAddToCart = () => {
-    onAddToCart?.(product.id, quantity);
+  const handleOrderNow = () => {
+    onOrderNow?.();
     onClose();
   };
 
@@ -158,31 +157,12 @@ export default function ProductDetailModal({
             </div>
 
             {product.status === 'available' && (
-              <div className="space-y-4 border-t pt-8">
-                <div className="flex items-center gap-4">
-                  <label className="font-semibold text-[#243247]">Quantity:</label>
-                  <div className="flex items-center gap-2 border border-gray-300 rounded-lg">
-                    <button
-                      onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                      className="px-3 py-2 hover:bg-gray-100"
-                    >
-                      −
-                    </button>
-                    <span className="w-8 text-center">{quantity}</span>
-                    <button
-                      onClick={() => setQuantity(quantity + 1)}
-                      className="px-3 py-2 hover:bg-gray-100"
-                    >
-                      +
-                    </button>
-                  </div>
-                </div>
-
+              <div className="border-t pt-8">
                 <button
-                  onClick={handleAddToCart}
+                  onClick={handleOrderNow}
                   className="w-full px-6 py-3 bg-[#243247] text-[#e7ddcc] font-bold rounded-lg hover:bg-[#e7ddcc] hover:text-[#243247] transition-all duration-300 transform hover:scale-105"
                 >
-                  Add to Cart
+                  Order Now
                 </button>
               </div>
             )}

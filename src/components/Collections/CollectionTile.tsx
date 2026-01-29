@@ -65,7 +65,7 @@ export default function CollectionTile({
           {collection.description}
         </p>
 
-        {collection.status === 'available' && (
+        {collection.status === 'available' && collection.id !== 'bracelets' && (
           <button
             onClick={onActionClick}
             className="self-start px-6 py-2 font-semibold rounded-lg transition-all duration-300 bg-[#e7ddcc] text-[#243247] hover:bg-white transform hover:scale-105 hover:shadow-lg"

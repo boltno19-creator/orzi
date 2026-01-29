@@ -115,9 +115,7 @@ function App() {
           product={selectedProductData}
           isOpen={selectedProduct !== null}
           onClose={() => setSelectedProduct(null)}
-          onAddToCart={(productId) => {
-            setSelectedProduct(null);
-          }}
+          onOrderNow={() => setShowOrderForm(true)}
         />
       )}
 
