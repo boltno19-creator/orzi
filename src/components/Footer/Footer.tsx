@@ -4,38 +4,12 @@ export default function Footer() {
   return (
     <footer className="bg-[#243247] text-white py-12 md:py-16">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>
             <h3 className="text-2xl font-bold mb-4">Orzi 1998</h3>
             <p className="text-gray-300 text-sm">
               Timeless. Refined. Heritage.
             </p>
-          </div>
-
-          <div>
-            <h4 className="text-lg font-bold mb-4">Navigation</h4>
-            <ul className="space-y-2 text-gray-300 text-sm">
-              <li>
-                <a href="#" className="hover:text-[#e7ddcc] transition-colors">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-[#e7ddcc] transition-colors">
-                  Shop
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-[#e7ddcc] transition-colors">
-                  Story
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-[#e7ddcc] transition-colors">
-                  Contact
-                </a>
-              </li>
-            </ul>
           </div>
 
           <div>
