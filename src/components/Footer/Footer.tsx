@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
-          <p>© {currentYear} Orzi 1998.</p>
+          <p>© {currentYear} Orzi-1998.</p>
           <p className="mt-2">Timeless. Refined. Heritage.</p>
         </div>
       </div>
