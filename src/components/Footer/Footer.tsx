@@ -9,10 +9,6 @@ export default function Footer() {
             <h3 className="text-2xl font-bold mb-4">Orzi 1998</h3>
             <p className="text-gray-300 text-sm">
               Timeless. Refined. Heritage.
-              <br />
-              <br />
-              Discover signature bracelets that define your identity through the elegance of
-              heritage craftsmanship.
             </p>
           </div>
 
