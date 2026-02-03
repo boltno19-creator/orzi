@@ -34,7 +34,7 @@ export default function StorySection() {
 
         <div className="mt-12 pt-12 border-t border-gray-300">
           <p className="text-sm text-gray-600 font-semibold">
-            "Timeless. Refined. Heritage."
+            "خالِدْ. راقٍ. عَريقْ."
           </p>
           <p className="text-gray-500 mt-2">— Orzi 1998</p>
         </div>
