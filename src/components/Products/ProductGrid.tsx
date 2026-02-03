@@ -19,7 +19,7 @@ export default function ProductGrid({
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-[#243247] mb-4">
-            Signature Collection
+            المجموعة الإستثنائية
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             Discover our handcrafted bracelets, each piece a testament to timeless elegance
