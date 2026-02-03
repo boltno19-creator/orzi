@@ -16,7 +16,7 @@ export default function StorySection() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-[#243247] mb-8 leading-tight">
           من عراقة الماضي<br/>
-          لصياغة الهوية<br/>
+          لصياغة الحاضر<br/>
           لثقة تليق بك.
         </h2>
 
