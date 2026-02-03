@@ -22,7 +22,7 @@ export default function ProductGrid({
             المجموعة الإستثنائية
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Discover our handcrafted bracelets, each piece a testament to timeless elegance
+            إكتشف سحر أساورنا المصاغة يدوياً؛ حيث تروي كل قطعة حكايةً من الأناقة التي لا يمحوها الزمن.
           </p>
         </div>
 
