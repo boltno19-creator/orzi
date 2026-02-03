@@ -22,21 +22,13 @@ export default function StorySection() {
 
         <div className="space-y-6 text-lg text-gray-700 font-light max-w-2xl mx-auto">
           <p>
-            Orzi 1998 represents more than jewelry—it's a philosophy. Each bracelet embodies
-            the essence of timeless elegance, designed for individuals who understand that true
-            luxury lies in understated sophistication.
+          في "أورزي 1998"، نحن لا نصمم مجرد إكسسوارات أو أساور، بل نبتكر قطعاً فنية مُستلهمة من أصالة "الزمن الجميل". نحن نؤمن بأن القطعة التي تختارها هي امتدادٌ لروحك؛ لذا نصيغ إبداعاتنا لتمنح الرجل هيبةً طاغية ورونقاً استثنائياً، وتُبرز للمرأة رقتها الأخاذة وجمالها الحقيقي الذي ينبع من الداخل.
           </p>
-
           <p>
-            Our heritage stretches back decades, rooted in the art of fine craftsmanship.
-            We believe in creating pieces that age gracefully, becoming part of your personal
-            narrative and style identity.
+          تمتد جذورنا عبر عقود من الزمن، متأصلة في فن الحرفية الرفيعة. نحن نؤمن بابتكار قطعٍ تزداد عراقةً كلما مرت عليها السنين، لتصبح جزءاً لا يتجزأ من حكايتك الشخصية وبصمةً تعكس جوهرك الخاص.
           </p>
-
           <p>
-            In a world of fleeting trends, we stand for permanence. Our bracelets are not
-            mere accessories—they are heirlooms waiting to be inherited, treasures that whisper
-            stories of refinement and enduring taste.
+          وفي عالمٍ تكتسحه الصيحات العابرة، نحن نختار الخلود. فما نقدمه ليس مجرد زينة، بل هي مقتنيات ثمينة تهمس بقصص الرقيّ، وتجسد الذوق الرفيع الذي لا يشيخ.
           </p>
         </div>
 
