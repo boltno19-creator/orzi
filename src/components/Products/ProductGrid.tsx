@@ -42,7 +42,7 @@ export default function ProductGrid({
             onClick={onOrderFormOpen}
             className="px-12 py-4 bg-[#243247] text-[#e7ddcc] font-bold text-lg rounded-lg hover:bg-[#e7ddcc] hover:text-[#243247] transition-all duration-300 transform hover:scale-105"
           >
-            Order one of our signature bracelets today
+            أُطلب اللي يناسبك من مجموعتنا الإستثنائية دلوقتي.
           </button>
         </div>
 
