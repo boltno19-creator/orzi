@@ -13,7 +13,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-4">Connect</h4>
+            <h4 className="text-lg font-bold mb-4">تابعنا</h4>
             <div className="flex gap-4">
               <a
                 href="https://www.tiktok.com/@orzi.eg"
