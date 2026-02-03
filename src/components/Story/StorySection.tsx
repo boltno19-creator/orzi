@@ -36,7 +36,7 @@ export default function StorySection() {
           <p className="text-sm text-gray-600 font-semibold">
             "خالِدْ. راقٍ. عَريقْ."
           </p>
-          <p className="text-gray-500 mt-2">— Orzi 1998</p>
+          <p className="text-gray-500 mt-2">- اورزي ١٩٩٨</p>
         </div>
       </div>
     </section>
