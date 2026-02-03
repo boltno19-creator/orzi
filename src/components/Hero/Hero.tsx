@@ -21,7 +21,7 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
         .خالِدْ. راقٍ. عَريقْ
         </h1>
-      </br>
+
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
             onClick={onShopClick}
