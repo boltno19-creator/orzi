@@ -21,9 +21,9 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           .خالِدْ. راقٍ. عَريقْ
         </h1>
-
+<br/>
         <p className="text-lg md:text-2xl text-white mb-12 font-light">
-          Discover bracelets & style identity
+          إختيار من يعرف قيمته.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
