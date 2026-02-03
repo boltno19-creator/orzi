@@ -35,7 +35,7 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
             onClick={onStoryClick}
             className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-[#243247] transition-all duration-300 transform hover:scale-105"
           >
-            Our Vision
+            رؤيتنا
           </button>
         </div>
       </div>
