@@ -16,7 +16,7 @@ export default function CollectionGrid({
             مجموعة اورزي
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            A refined line of ORZI pieces,<br />from signature icons to upcoming designs.
+            تشكيلة راقية من أساورنا الفريدة،<br />وبعض القطع الفنية القادمة. 
           </p>
         </div>
 
