@@ -29,7 +29,7 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
             onClick={onShopClick}
             className="px-8 py-4 bg-[#243247] text-[#e7ddcc] font-semibold rounded-lg hover:bg-[#e7ddcc] hover:text-[#243247] transition-all duration-300 transform hover:scale-105"
           >
-            إكتشف مجموعة Orzi
+            إكتشف مجموعة ORZI
           </button>
           <button
             onClick={onStoryClick}
