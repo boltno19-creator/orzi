@@ -19,7 +19,7 @@ export default function ProductGrid({
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-[#243247] mb-4">
-            المجموعة الإستثنائية
+            ORZI مجموعة 
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             إكتشف سحر أساورنا المصاغة يدوياً؛ حيث تروي كل قطعة حكايةً من الأناقة التي لا يمحوها الزمن.
