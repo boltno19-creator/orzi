@@ -22,7 +22,7 @@ export default function ProductGrid({
             ORZI مجموعة 
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            إكتشف سحر أساورنا المصاغة يدوياً؛ حيث تروي كل قطعة حكايةً من الأناقة التي لا يمحوها الزمن.
+            إكتشف سحر أساورنا المصاغة يدوياً.
           </p>
         </div>
 
