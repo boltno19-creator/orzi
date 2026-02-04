@@ -13,7 +13,7 @@ export default function CollectionGrid({
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-[#243247] mb-4">
-            مجموعة اورزي
+            ORZI خط
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             تشكيلة راقية من أساورنا الفريدة،<br />وبعض القطع الفنية القادمة قريباً. 
