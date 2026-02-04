@@ -106,7 +106,7 @@ export default function ProductDetailModal({
             <div>
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h2 className="text-3xl font-bold text-[#243247] mb-2">
+                  <h2 className="text-3xl font-bold text-[#243247] mb-2 product-name">
                     {product.name}
                   </h2>
                   <p className={`text-sm font-semibold ${statusColors[product.status]}`}>

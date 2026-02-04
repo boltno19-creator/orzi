@@ -49,7 +49,7 @@ export default function ProductCard({
       </div>
 
       <div className="p-6 bg-white">
-        <h3 className="text-xl font-bold text-[#243247] mb-2 line-clamp-2">
+        <h3 className="text-xl font-bold text-[#243247] mb-2 line-clamp-2 product-name">
           {product.name}
         </h3>
         <p className="text-sm text-gray-600 mb-4 line-clamp-2">

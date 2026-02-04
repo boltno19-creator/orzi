@@ -6,6 +6,10 @@
   body {
     font-family: 'Cairo', sans-serif;
   }
+
+  .product-name {
+    font-family: 'Cinzel', serif;
+  }
 }
 
 @layer utilities {
