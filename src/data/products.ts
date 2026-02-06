@@ -3,7 +3,7 @@ import { Product } from '../types/product';
 export const products: Product[] = [
   {
     id: 'aura-straight',
-    name: 'Aura - Straight Design',
+    name: 'Aura',
     nameAr: 'أورا - تصميم مستقيم',
     slug: 'aura-straight',
     price: 360,
