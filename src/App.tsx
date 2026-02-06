@@ -89,7 +89,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white" dir="rtl" lang="ar">
+    <div className="min-h-screen bg-white" dir="ltr">
       <main>
         <Hero onShopClick={handleHeroShop} onStoryClick={handleHeroStory} />
 
