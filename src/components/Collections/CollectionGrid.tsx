@@ -16,7 +16,7 @@ export default function CollectionGrid({
             ORZI خط
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            ,تشكيلة راقية من أساورنا الفريدة<br />.وبعض القطع الفنية القادمة قريباً
+            .وبعض القطع الفنية القادمة قريباً
           </p>
         </div>
 
