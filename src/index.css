@@ -3,12 +3,34 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    direction: rtl;
+  }
+
+  html {
+    direction: rtl;
+    lang: ar;
+  }
+
   body {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Amiri', serif;
+    direction: rtl;
   }
 
   .product-name {
     font-family: 'Cinzel', serif;
+    direction: ltr;
+    text-align: left;
+  }
+
+  :lang(en) {
+    font-family: 'Cinzel', serif;
+    direction: ltr;
+  }
+
+  :lang(ar) {
+    font-family: 'Amiri', serif;
+    direction: rtl;
   }
 }
 
@@ -26,5 +48,23 @@
 
   .animate-fade-in {
     animation: fade-in 0.3s ease-out;
+  }
+
+  [dir="rtl"] {
+    direction: rtl;
+  }
+
+  [dir="ltr"] {
+    direction: ltr;
+  }
+
+  :lang(ar) {
+    font-family: 'Amiri', serif;
+    direction: rtl;
+  }
+
+  :lang(en) {
+    font-family: 'Cinzel', serif;
+    direction: ltr;
   }
 }

@@ -12,7 +12,7 @@ export default function ProductGrid({
   onAddToCart,
   onOrderFormOpen,
 }: ProductGridProps) {
-  const availableProducts = products.filter((p) => p.status === 'available');
+  const availableProducts = products.filter((p) => p.status === 'available' && p.collection !== 'bracelets');
 
   return (
     <section className="py-16 md:py-24 bg-white" dir="rtl">
@@ -27,7 +27,7 @@ export default function ProductGrid({
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {products.map((product) => (
+          {products.filter((p) => p.collection !== 'bracelets').map((product) => (
             <ProductCard
               key={product.id}
               product={product}

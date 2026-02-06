@@ -13,17 +13,6 @@ export const collections: Collection[] = [
     productCount: 0,
   },
   {
-    id: 'bracelets',
-    name: 'ORZI - Heritage Bracelets',
-    nameAr: 'الإسورات',
-    slug: 'bracelets',
-    description: 'Timeless signature bracelets that define your identity. Each piece is a testament to heritage and refined taste.',
-    descriptionAr: 'إسورات توقيعية خالدة تحدد هويتك. كل قطعة هي شهادة على التراث والذوق الرفيع.',
-    status: 'available',
-    image: '/signature.jpg',
-    productCount: 3,
-  },
-  {
     id: 'heritage-trousers',
     name: 'ORZI - Heritage Trousers',
     nameAr: 'أورزي - بنطلون التراث',

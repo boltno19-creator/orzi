@@ -47,7 +47,7 @@ export default function Header({ activeSection = 'home', onNavigate }: HeaderPro
         </button>
 
         <div className="flex-1 flex justify-center">
-          <h1 className="text-xl md:text-2xl font-bold text-[#243247]">
+          <h1 className="text-xl md:text-2xl font-bold text-[#243247] product-name" lang="en">
             Orzi 1998
           </h1>
         </div>
@@ -64,6 +64,7 @@ export default function Header({ activeSection = 'home', onNavigate }: HeaderPro
                   ? 'text-[#243247] border-b-2 border-[#243247]'
                   : 'text-[#243247] hover:text-opacity-70'
               }`}
+              lang="en"
             >
               {item.label}
             </button>
@@ -81,11 +82,12 @@ export default function Header({ activeSection = 'home', onNavigate }: HeaderPro
               onClick={() =>
                 handleNavClick(item.value as 'home' | 'shop' | 'story' | 'contact')
               }
-              className={`block w-full text-left py-2 px-4 rounded transition-colors ${
+              className={`block w-full text-right py-2 px-4 rounded transition-colors ${
                 activeSection === item.value
                   ? 'bg-white text-[#243247] font-semibold'
                   : 'text-[#243247] hover:bg-white hover:bg-opacity-50'
               }`}
+              lang="en"
             >
               {item.label}
             </button>
