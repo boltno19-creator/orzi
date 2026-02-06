@@ -31,7 +31,7 @@ export const collections: Collection[] = [
     description: 'A wide-cut fabric trouser inspired by classic old-money tailoring. Timeless, refined, and designed to last beyond trends.',
     descriptionAr: 'بنطلون قماش واسع مستوحى من الخياطة الكلاسيكية الفاخرة. خالد ومصقول ومصمم ليدوم بعد الصيحات.',
     status: 'coming-soon',
-    image: '/orzi-heritage-trousers.JPG',
+    image: '/orzi-heritage-trousers.jpg',
     productCount: 0,
   },
   {
