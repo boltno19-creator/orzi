@@ -3,7 +3,7 @@ import { Product } from '../types/product';
 export const products: Product[] = [
   {
     id: 'aura-straight',
-    name: 'Aura',
+    name: 'Aura - Straight Design',
     nameAr: 'أورا - تصميم مستقيم',
     slug: 'aura-straight',
     price: 360,
@@ -29,7 +29,7 @@ export const products: Product[] = [
   },
   {
     id: 'harmonia-curved',
-    name: 'Harmonia',
+    name: 'Harmonia - Curved Design',
     nameAr: 'هارمونيا - تصميم منحني',
     slug: 'harmonia-curved',
     price: 360,
@@ -55,7 +55,7 @@ export const products: Product[] = [
   },
   {
     id: 'sophia-curved-gold',
-    name: 'Sophia',
+    name: 'Sophia - Curved Gold Design',
     nameAr: 'صوفيا - تصميم منحني ذهبي',
     slug: 'sophia-curved-gold',
     price: 360,
