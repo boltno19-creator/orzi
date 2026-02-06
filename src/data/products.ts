@@ -55,7 +55,7 @@ export const products: Product[] = [
   },
   {
     id: 'sophia-curved-gold',
-    name: 'Sophia - Curved Gold Design',
+    name: 'Sophia',
     nameAr: 'صوفيا - تصميم منحني ذهبي',
     slug: 'sophia-curved-gold',
     price: 360,
