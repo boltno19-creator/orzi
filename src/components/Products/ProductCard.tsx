@@ -12,9 +12,9 @@ export default function ProductCard({
   onAddToCart,
 }: ProductCardProps) {
   const statusConfig = {
-    available: { label: 'Available', color: 'bg-green-500' },
-    'coming-soon': { label: 'Coming Soon', color: 'bg-yellow-500' },
-    'sold-out': { label: 'Sold Out', color: 'bg-gray-500' },
+    available: { label: 'متاح', color: 'bg-green-500' },
+    'coming-soon': { label: 'قادم قريباً', color: 'bg-yellow-500' },
+    'sold-out': { label: 'نفذ من المخزون', color: 'bg-gray-500' },
   };
 
   const status = statusConfig[product.status];
@@ -43,17 +43,17 @@ export default function ProductCard({
             onClick={() => onQuickView?.(product.id)}
             className="opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 px-4 py-2 bg-[#243247] text-[#e7ddcc] font-semibold rounded-lg hover:bg-[#e7ddcc] hover:text-[#243247]"
           >
-            Details
+            تفاصيل
           </button>
         </div>
       </div>
 
-      <div className="p-6 bg-white">
+      <div className="p-6 bg-white" dir="rtl">
         <h3 className="text-xl font-bold text-[#243247] mb-2 line-clamp-2 product-name">
           {product.name}
         </h3>
         <p className="text-sm text-gray-600 mb-4 line-clamp-2">
-          {product.description}
+          {product.descriptionAr || product.description}
         </p>
 
         <div className="flex items-center justify-between">
@@ -63,7 +63,7 @@ export default function ProductCard({
               onClick={() => onQuickView?.(product.id)}
               className="px-4 py-2 bg-[#243247] text-[#e7ddcc] font-semibold rounded-lg hover:bg-[#e7ddcc] hover:text-[#243247] transition-all duration-300"
             >
-              Details
+              تفاصيل
             </button>
           )}
         </div>

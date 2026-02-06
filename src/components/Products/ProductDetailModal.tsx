@@ -102,7 +102,7 @@ export default function ProductDetailModal({
             )}
           </div>
 
-          <div className="w-full md:w-1/2 p-8 flex flex-col justify-between">
+          <div className="w-full md:w-1/2 p-8 flex flex-col justify-between" dir="rtl">
             <div>
               <div className="flex items-start justify-between mb-4">
                 <div>
@@ -111,10 +111,10 @@ export default function ProductDetailModal({
                   </h2>
                   <p className={`text-sm font-semibold ${statusColors[product.status]}`}>
                     {product.status === 'available'
-                      ? 'In Stock'
+                      ? 'متاح'
                       : product.status === 'coming-soon'
-                        ? 'Coming Soon'
-                        : 'Sold Out'}
+                        ? 'قادم قريباً'
+                        : 'نفذ من المخزون'}
                   </p>
                 </div>
               </div>
@@ -123,37 +123,39 @@ export default function ProductDetailModal({
                 ${product.price}
               </p>
 
-              <p className="text-gray-700 mb-8">{product.description}</p>
+              <p className="text-gray-700 mb-8">{product.descriptionAr || product.description}</p>
 
-              <div className="space-y-4 mb-8">
-                <h3 className="text-lg font-bold text-[#243247]">Specifications</h3>
-                <div className="space-y-3 text-sm text-gray-700">
-                  <div className="flex justify-between">
-                    <span className="font-semibold">Material:</span>
-                    <span>{product.specs.material}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="font-semibold">Coating:</span>
-                    <span>{product.specs.coating}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="font-semibold">Resistance:</span>
-                    <span>{product.specs.resistance}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="font-semibold">Size:</span>
-                    <span>{product.specs.size}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="font-semibold">Color:</span>
-                    <span>{product.specs.color}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="font-semibold">Unisex:</span>
-                    <span>{product.specs.unisex ? 'Yes' : 'No'}</span>
+              {product.specs && (
+                <div className="space-y-4 mb-8">
+                  <h3 className="text-lg font-bold text-[#243247]">مواصفات</h3>
+                  <div className="space-y-3 text-sm text-gray-700">
+                    <div className="flex justify-between">
+                      <span className="font-semibold">المادة:</span>
+                      <span>{product.specs.materialAr || product.specs.material}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">الطلاء:</span>
+                      <span>{product.specs.coatingAr || product.specs.coating}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">المقاومة:</span>
+                      <span>{product.specs.resistanceAr || product.specs.resistance}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">الحجم:</span>
+                      <span>{product.specs.sizeAr || product.specs.size}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">اللون:</span>
+                      <span>{product.specs.colorAr || product.specs.color}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">للرجل والمرأة:</span>
+                      <span>{product.specs.unisex ? 'نعم' : 'لا'}</span>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
             </div>
 
             {product.status === 'available' && (
@@ -162,7 +164,7 @@ export default function ProductDetailModal({
                   onClick={handleOrderNow}
                   className="w-full px-6 py-3 bg-[#243247] text-[#e7ddcc] font-bold rounded-lg hover:bg-[#e7ddcc] hover:text-[#243247] transition-all duration-300 transform hover:scale-105"
                 >
-                  Order Now
+                  اطلب الآن
                 </button>
               </div>
             )}

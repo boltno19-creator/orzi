@@ -11,19 +11,19 @@ export default function CollectionTile({
 }: CollectionTileProps) {
   const statusConfig = {
     available: {
-      label: 'Available',
+      label: 'متاح',
       bgColor: 'bg-green-500',
-      buttonLabel: 'Shop Now',
+      buttonLabel: 'تسوق الآن',
     },
     'coming-soon': {
-      label: 'Coming Soon',
+      label: 'قادم قريباً',
       bgColor: 'bg-yellow-500',
-      buttonLabel: 'Notify Me',
+      buttonLabel: 'أخبرني',
     },
     'sold-out': {
-      label: 'Sold Out',
+      label: 'نفذ من المخزون',
       bgColor: 'bg-gray-500',
-      buttonLabel: 'Unavailable',
+      buttonLabel: 'غير متاح',
     },
   };
 
@@ -51,7 +51,7 @@ export default function CollectionTile({
         } transition-all duration-300`}
       />
 
-      <div className="absolute inset-0 flex flex-col justify-end p-6 text-white">
+      <div className="absolute inset-0 flex flex-col justify-end p-6 text-white" dir="rtl">
         <div className="flex items-center gap-3 mb-4">
           <span
             className={`${config.bgColor} text-white text-xs font-bold px-3 py-1 rounded-full`}
@@ -60,9 +60,9 @@ export default function CollectionTile({
           </span>
         </div>
 
-        <h3 className="text-3xl md:text-4xl font-bold mb-2">{collection.name}</h3>
+        <h3 className="text-3xl md:text-4xl font-bold mb-2 product-name">{collection.name}</h3>
         <p className="text-sm text-gray-200 mb-6 line-clamp-2">
-          {collection.description}
+          {collection.descriptionAr}
         </p>
 
         {collection.status === 'available' && collection.id !== 'bracelets' && (

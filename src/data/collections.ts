@@ -2,6 +2,17 @@ import { Collection } from '../types/product';
 
 export const collections: Collection[] = [
   {
+    id: 'heritage-shoes',
+    name: 'ORZI - Heritage Shoes',
+    nameAr: 'أورزي - أحذية التراث',
+    slug: 'heritage-shoes',
+    description: 'A classic shoe inspired by timeless Italian elegance. Designed with care to embody ORZI\'s identity for men and women, with refined details and a presence that reflects confidence and dignity.',
+    descriptionAr: 'حذاء كلاسيكي مستوحى من الأناقة الإيطالية الخالدة. مصمم بعناية ليجسد هوية ORZI للرجل والمرأة، بتفاصيل راقية وحضور يعكس الثقة والوقار.',
+    status: 'coming-soon',
+    image: '/orzi-heritage-shoes.jpg',
+    productCount: 0,
+  },
+  {
     id: 'bracelets',
     name: 'ORZI - Heritage Bracelets',
     nameAr: 'الإسورات',
@@ -24,14 +35,14 @@ export const collections: Collection[] = [
     productCount: 0,
   },
   {
-    id: 'heritage-polo',
-    name: 'ORZI - Heritage Polo',
-    nameAr: 'أورزي - بولو التراث',
-    slug: 'heritage-polo',
-    description: 'A knitted short-sleeve polo inspired by classic European summer style. Effortless elegance, designed to pair perfectly with ORZI tailoring.',
-    descriptionAr: 'بولو منسوج قصير الأكمام مستوحى من أسلوب الصيف الأوروبي الكلاسيكي. أناقة بلا مجهود، مصمم ليتناسب بشكل مثالي مع خياطة أورزي.',
+    id: 'heritage-watch',
+    name: 'ORZI - Heritage Watch',
+    nameAr: 'أورزي - ساعة التراث',
+    slug: 'heritage-watch',
+    description: 'A classic wristwatch with a balanced design that combines simplicity and luxury. A piece that expresses the essence of ORZI for both men and women, and complements a timeless style.',
+    descriptionAr: 'ساعة يد كلاسيكية بتصميم متوازن يجمع بين البساطة والفخامة. قطعة تعبر عن جوهر ORZI للرجل والمرأة، وتكمل أسلوبًا لا يرتبط بزمن.',
     status: 'coming-soon',
-    image: '/polo.jpeg',
+    image: '/orzi-heritage-watch.jpg',
     productCount: 0,
   },
 ];
