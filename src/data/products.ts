@@ -29,7 +29,7 @@ export const products: Product[] = [
   },
   {
     id: 'harmonia-curved',
-    name: 'Harmonia - Curved Design',
+    name: 'Harmonia',
     nameAr: 'هارمونيا - تصميم منحني',
     slug: 'harmonia-curved',
     price: 360,
